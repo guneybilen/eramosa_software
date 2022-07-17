@@ -1,0 +1,35 @@
+body {
+  background-color: bisque;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.image {
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.text {
+  color: black;
+}
+
+.inline_love {
+  width: 2%;
+  height: 2%;
+}

@@ -1,0 +1,20 @@
+server {
+    listen 80 default;
+    server_name eramosasoftware.com;
+    server_name www.eramosasoftware.com
+    root /home/bilen/programs/eramosasoftware/;
+    index index.html;   
+
+    location / {
+        try_files $uri/index.html $uri/ =404;
+    }
+
+    location /images/ {
+	/home/bilen/programs/eramosasoftware/;
+    }
+
+    location ~ \.(mp3|mp4) {
+        root /www/media;
+    }
+}
+
